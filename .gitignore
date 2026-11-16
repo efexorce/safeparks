@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.log
+
+# Internal drafts and presentation material (not part of the public repository)
+taslak/
+safeparksimages/
